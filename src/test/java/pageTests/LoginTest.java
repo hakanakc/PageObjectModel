@@ -12,7 +12,7 @@ public class LoginTest extends BaseTests {
 
 
     @Test
-    public void testLoginElement(){
+    public void positiveTestLogin(){
   String url = ConfigurationReader.get("url");
         String password = ConfigurationReader.get("password");
 
@@ -24,6 +24,12 @@ loginPage.setUsername(ConfigurationReader.get("username"));
  loginPage.clickLoginButton();
 
 loginPage.login(ConfigurationReader.get("username"), "123456");
+
+    }
+    public void negativeLoginTest(){
+
+        String url = ConfigurationReader.get("url");
+
 
     }
 
