@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Xml tests" verbose="3">
+    <test name="Negative Tests">
+        <classes>
+            <class name="pageTests.LoginTest">
+                <methods>
+                  <exclude name="positiveTestLogin"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    </suite>
+
+
+
+
+

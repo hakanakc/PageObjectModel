@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-pageTests.LoginTest">
+              <span class="suite-name border-failed">pageTests.LoginTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-pageTests.LoginTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-pageTests.LoginTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-pageTests.LoginTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-pageTests.LoginTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-pageTests.LoginTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-pageTests.LoginTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-pageTests.LoginTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-pageTests.LoginTest" class="hide-methods failed suite-pageTests.LoginTest"> (hide)</a> <!-- hide-methods failed suite-pageTests.LoginTest -->
+                      <a href="#" panel-name="suite-pageTests.LoginTest" class="show-methods failed suite-pageTests.LoginTest"> (show)</a> <!-- show-methods failed suite-pageTests.LoginTest -->
+                    </span>
+                    <div class="method-list-content failed suite-pageTests.LoginTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="positiveTestLogin">positiveTestLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-pageTests.LoginTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-pageTests.LoginTest" class="hide-methods passed suite-pageTests.LoginTest"> (hide)</a> <!-- hide-methods passed suite-pageTests.LoginTest -->
+                      <a href="#" panel-name="suite-pageTests.LoginTest" class="show-methods passed suite-pageTests.LoginTest"> (show)</a> <!-- show-methods passed suite-pageTests.LoginTest -->
+                    </span>
+                    <div class="method-list-content passed suite-pageTests.LoginTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestAll(tomsmith, SuperSecretPassword!!)">negativeLoginTestAll(tomsmith, SuperSecretPassword!!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestAll(tomsmithh, SuperSecretPassword!)">negativeLoginTestAll(tomsmithh, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestAll(tomsmith tomsmith, SuperSecretPassword!)">negativeLoginTestAll(tomsmith tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestAll(tomsmith, randomPassword)">negativeLoginTestAll(tomsmith, randomPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestAll(tomsmit, SuperSecretPassword!)">negativeLoginTestAll(tomsmit, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestAll(tomsmith, SuperSecretPassword)">negativeLoginTestAll(tomsmith, SuperSecretPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestPassword(tomsmith, SuperSecretPassword!!)">negativeLoginTestPassword(tomsmith, SuperSecretPassword!!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestPassword(tomsmith, SuperSecretPassword)">negativeLoginTestPassword(tomsmith, SuperSecretPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestPassword(tomsmith, randomPassword)">negativeLoginTestPassword(tomsmith, randomPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestPassword(tomsmith,  )">negativeLoginTestPassword(tomsmith,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestUserName(tomsmit, SuperSecretPassword!)">negativeLoginTestUserName(tomsmit, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestUserName(tomsmith tomsmith, SuperSecretPassword!)">negativeLoginTestUserName(tomsmith tomsmith, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestUserName(tomsmithh, SuperSecretPassword!)">negativeLoginTestUserName(tomsmithh, SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-pageTests.LoginTest" title="pageTests.LoginTest" hash-for-method="negativeLoginTestUserName( , SuperSecretPassword!)">negativeLoginTestUserName( , SuperSecretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-pageTests.LoginTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-pageTests.LoginTest" class="panel pageTests.LoginTest">
+          <div class="suite-pageTests.LoginTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pageTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTestLogin">
+                  </a> <!-- positiveTestLogin -->
+                  <span class="method-name">positiveTestLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#username&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-L8FDBCTT&apos;, ip: &apos;192.168.43.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\AYTEN-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1d5b79f893a5b18d9870101192dddb3
+*** Element info: {Using=id, value=username}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at pages.LoginPage.login(LoginPage.java:43)
+	at pageTests.LoginTest.positiveTestLogin(LoginTest.java:33)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-pageTests.LoginTest-class-failed -->
+          <div class="suite-pageTests.LoginTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestAll(tomsmith, SuperSecretPassword!!)">
+                  </a> <!-- negativeLoginTestAll(tomsmith, SuperSecretPassword!!) -->
+                  <span class="method-name">negativeLoginTestAll</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestAll(tomsmithh, SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestAll(tomsmithh, SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestAll</span>
+                  <span class="parameters">(tomsmithh, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestAll(tomsmith tomsmith, SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestAll(tomsmith tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestAll</span>
+                  <span class="parameters">(tomsmith tomsmith, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestAll(tomsmith, randomPassword)">
+                  </a> <!-- negativeLoginTestAll(tomsmith, randomPassword) -->
+                  <span class="method-name">negativeLoginTestAll</span>
+                  <span class="parameters">(tomsmith, randomPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestAll(tomsmit, SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestAll(tomsmit, SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestAll</span>
+                  <span class="parameters">(tomsmit, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestAll(tomsmith, SuperSecretPassword)">
+                  </a> <!-- negativeLoginTestAll(tomsmith, SuperSecretPassword) -->
+                  <span class="method-name">negativeLoginTestAll</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestPassword(tomsmith, SuperSecretPassword!!)">
+                  </a> <!-- negativeLoginTestPassword(tomsmith, SuperSecretPassword!!) -->
+                  <span class="method-name">negativeLoginTestPassword</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword!!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestPassword(tomsmith, SuperSecretPassword)">
+                  </a> <!-- negativeLoginTestPassword(tomsmith, SuperSecretPassword) -->
+                  <span class="method-name">negativeLoginTestPassword</span>
+                  <span class="parameters">(tomsmith, SuperSecretPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestPassword(tomsmith, randomPassword)">
+                  </a> <!-- negativeLoginTestPassword(tomsmith, randomPassword) -->
+                  <span class="method-name">negativeLoginTestPassword</span>
+                  <span class="parameters">(tomsmith, randomPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestPassword(tomsmith,  )">
+                  </a> <!-- negativeLoginTestPassword(tomsmith,  ) -->
+                  <span class="method-name">negativeLoginTestPassword</span>
+                  <span class="parameters">(tomsmith,  )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestUserName(tomsmit, SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestUserName(tomsmit, SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestUserName</span>
+                  <span class="parameters">(tomsmit, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestUserName(tomsmith tomsmith, SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestUserName(tomsmith tomsmith, SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestUserName</span>
+                  <span class="parameters">(tomsmith tomsmith, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestUserName(tomsmithh, SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestUserName(tomsmithh, SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestUserName</span>
+                  <span class="parameters">(tomsmithh, SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTestUserName( , SuperSecretPassword!)">
+                  </a> <!-- negativeLoginTestUserName( , SuperSecretPassword!) -->
+                  <span class="method-name">negativeLoginTestUserName</span>
+                  <span class="parameters">( , SuperSecretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-pageTests.LoginTest-class-passed -->
+        </div> <!-- panel pageTests.LoginTest -->
+        <div panel-name="test-xml-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;pageTests.LoginTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pageTests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- pageTests.LoginTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for pageTests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for pageTests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for pageTests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_pageTests.LoginTest');
+function tableData_pageTests.LoginTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'positiveTestLogin')
+data.setCell(0, 2, 'pageTests.LoginTest')
+data.setCell(0, 3, 11659);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'negativeLoginTestAll')
+data.setCell(1, 2, 'pageTests.LoginTest')
+data.setCell(1, 3, 3531);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'negativeLoginTestPassword')
+data.setCell(2, 2, 'pageTests.LoginTest')
+data.setCell(2, 3, 1889);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'negativeLoginTestAll')
+data.setCell(3, 2, 'pageTests.LoginTest')
+data.setCell(3, 3, 1814);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'negativeLoginTestAll')
+data.setCell(4, 2, 'pageTests.LoginTest')
+data.setCell(4, 3, 1726);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'negativeLoginTestUserName')
+data.setCell(5, 2, 'pageTests.LoginTest')
+data.setCell(5, 3, 1695);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'negativeLoginTestAll')
+data.setCell(6, 2, 'pageTests.LoginTest')
+data.setCell(6, 3, 1672);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'negativeLoginTestUserName')
+data.setCell(7, 2, 'pageTests.LoginTest')
+data.setCell(7, 3, 1644);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'negativeLoginTestUserName')
+data.setCell(8, 2, 'pageTests.LoginTest')
+data.setCell(8, 3, 1634);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'negativeLoginTestUserName')
+data.setCell(9, 2, 'pageTests.LoginTest')
+data.setCell(9, 3, 1623);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'negativeLoginTestPassword')
+data.setCell(10, 2, 'pageTests.LoginTest')
+data.setCell(10, 3, 1603);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'negativeLoginTestPassword')
+data.setCell(11, 2, 'pageTests.LoginTest')
+data.setCell(11, 3, 1588);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'negativeLoginTestAll')
+data.setCell(12, 2, 'pageTests.LoginTest')
+data.setCell(12, 3, 1582);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'negativeLoginTestAll')
+data.setCell(13, 2, 'pageTests.LoginTest')
+data.setCell(13, 3, 1561);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'negativeLoginTestPassword')
+data.setCell(14, 2, 'pageTests.LoginTest')
+data.setCell(14, 3, 1489);
+window.suiteTableData['pageTests.LoginTest']= { tableData: data, tableDiv: 'times-div-pageTests.LoginTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-pageTests.LoginTest">
+              </div> <!-- times-div-pageTests.LoginTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for pageTests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-pageTests.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestAll(tomsmit, SuperSecretPassword!)</span>
+                <span class="method-start">8074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">11606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestAll(tomsmithh, SuperSecretPassword!)</span>
+                <span class="method-start">11638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">13220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestAll(tomsmith tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">13276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">15003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestAll(tomsmith, SuperSecretPassword)</span>
+                <span class="method-start">15029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">16843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestAll(tomsmith, SuperSecretPassword!!)</span>
+                <span class="method-start">16895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">18568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestAll(tomsmith, randomPassword)</span>
+                <span class="method-start">18600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">20161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestPassword(tomsmith,  )</span>
+                <span class="method-start">20192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">21681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestPassword(tomsmith, SuperSecretPassword)</span>
+                <span class="method-start">21706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">23595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestPassword(tomsmith, SuperSecretPassword!!)</span>
+                <span class="method-start">23626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">25215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestPassword(tomsmith, randomPassword)</span>
+                <span class="method-start">25241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">26846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestUserName( , SuperSecretPassword!)</span>
+                <span class="method-start">26872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">28568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestUserName(tomsmit, SuperSecretPassword!)</span>
+                <span class="method-start">28624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">30247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestUserName(tomsmithh, SuperSecretPassword!)</span>
+                <span class="method-start">30282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTestUserName(tomsmith tomsmith, SuperSecretPassword!)</span>
+                <span class="method-start">31944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">33589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">positiveTestLogin</span>
+                <span class="method-start">33627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45295 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="15" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="pageTests.LoginTest" duration-ms="49209" started-at="2021-08-29T23:14:48Z" finished-at="2021-08-29T23:15:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49209" started-at="2021-08-29T23:14:48Z" finished-at="2021-08-29T23:15:37Z">
+      <class name="pageTests.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeTest" is-config="true" duration-ms="29" started-at="2021-08-29T23:14:48Z" finished-at="2021-08-29T23:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="4440" started-at="2021-08-29T23:14:51Z" finished-at="2021-08-29T23:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestAll(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestAll" duration-ms="3531" started-at="2021-08-29T23:14:56Z" data-provider="excelDataProvider" finished-at="2021-08-29T23:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2021-08-29T23:14:59Z" finished-at="2021-08-29T23:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestAll(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestAll" duration-ms="1582" started-at="2021-08-29T23:14:59Z" data-provider="excelDataProvider" finished-at="2021-08-29T23:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmithh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="56" started-at="2021-08-29T23:15:01Z" finished-at="2021-08-29T23:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestAll(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestAll" duration-ms="1726" started-at="2021-08-29T23:15:01Z" data-provider="excelDataProvider" finished-at="2021-08-29T23:15:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2021-08-29T23:15:03Z" finished-at="2021-08-29T23:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestAll(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestAll" duration-ms="1814" started-at="2021-08-29T23:15:03Z" data-provider="excelDataProvider" finished-at="2021-08-29T23:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="51" started-at="2021-08-29T23:15:05Z" finished-at="2021-08-29T23:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestAll(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestAll" duration-ms="1672" started-at="2021-08-29T23:15:05Z" data-provider="excelDataProvider" finished-at="2021-08-29T23:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2021-08-29T23:15:06Z" finished-at="2021-08-29T23:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestAll(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestAll" duration-ms="1561" started-at="2021-08-29T23:15:06Z" data-provider="excelDataProvider" finished-at="2021-08-29T23:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[randomPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2021-08-29T23:15:08Z" finished-at="2021-08-29T23:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestPassword(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestPassword" duration-ms="1489" started-at="2021-08-29T23:15:08Z" data-provider="negativePasswordData" finished-at="2021-08-29T23:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="25" started-at="2021-08-29T23:15:09Z" finished-at="2021-08-29T23:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestPassword(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestPassword" duration-ms="1889" started-at="2021-08-29T23:15:09Z" data-provider="negativePasswordData" finished-at="2021-08-29T23:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2021-08-29T23:15:11Z" finished-at="2021-08-29T23:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestPassword(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestPassword" duration-ms="1588" started-at="2021-08-29T23:15:11Z" data-provider="negativePasswordData" finished-at="2021-08-29T23:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2021-08-29T23:15:13Z" finished-at="2021-08-29T23:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestPassword(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestPassword" duration-ms="1603" started-at="2021-08-29T23:15:13Z" data-provider="negativePasswordData" finished-at="2021-08-29T23:15:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[randomPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="25" started-at="2021-08-29T23:15:15Z" finished-at="2021-08-29T23:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestUserName(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestUserName" duration-ms="1695" started-at="2021-08-29T23:15:15Z" data-provider="negativeUsernameData" finished-at="2021-08-29T23:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestUserName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="55" started-at="2021-08-29T23:15:16Z" finished-at="2021-08-29T23:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestUserName(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestUserName" duration-ms="1623" started-at="2021-08-29T23:15:16Z" data-provider="negativeUsernameData" finished-at="2021-08-29T23:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestUserName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="35" started-at="2021-08-29T23:15:18Z" finished-at="2021-08-29T23:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestUserName(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestUserName" duration-ms="1634" started-at="2021-08-29T23:15:18Z" data-provider="negativeUsernameData" finished-at="2021-08-29T23:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmithh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestUserName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="27" started-at="2021-08-29T23:15:20Z" finished-at="2021-08-29T23:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeLoginTestUserName(java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTest@51efea79]" name="negativeLoginTestUserName" duration-ms="1644" started-at="2021-08-29T23:15:20Z" data-provider="negativeUsernameData" finished-at="2021-08-29T23:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestUserName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pageTests.LoginTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="37" started-at="2021-08-29T23:15:21Z" finished-at="2021-08-29T23:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="positiveTestLogin()[pri:0, instance:pageTests.LoginTest@51efea79]" name="positiveTestLogin" duration-ms="11659" started-at="2021-08-29T23:15:21Z" finished-at="2021-08-29T23:15:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L8FDBCTT', ip: '192.168.43.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\AYTEN-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1d5b79f893a5b18d9870101192dddb3
+*** Element info: {Using=id, value=username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L8FDBCTT', ip: '192.168.43.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\AYTEN-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1d5b79f893a5b18d9870101192dddb3
+*** Element info: {Using=id, value=username}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at pages.LoginPage.login(LoginPage.java:43)
+at pageTests.LoginTest.positiveTestLogin(LoginTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTestLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageTests.LoginTest@51efea79]" name="tearDown" is-config="true" duration-ms="3913" started-at="2021-08-29T23:15:33Z" finished-at="2021-08-29T23:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- pageTests.LoginTest -->
+</testng-results>
