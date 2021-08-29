@@ -33,19 +33,19 @@ public WebDriverWait wait;
 
 }
 
-@AfterMethod
+@AfterTest
     public void tearDown() throws InterruptedException {
     Thread.sleep(3000);
 
-  //  Driver.closeDriver();
+  driver.quit();
 
 }
-@AfterTest
-    public void afterTest(){
+// @AfterTest
+//    public void afterTest(){
+//
+//    // Closing the report.flush();
 
-    // Closing the report.flush();
-
-}
+//}
 
 
 

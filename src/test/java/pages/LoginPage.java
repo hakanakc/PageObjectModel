@@ -15,13 +15,12 @@ public class LoginPage {
 
     @FindBy(className = "radius")
     WebElement loginButton;
-// this is a constructor
-    public LoginPage(WebElement username) {
-        PageFactory.initElements(DriverUtil.get(),this);
-    }
+
+    @FindBy(id = "flash")
+    WebElement errorMessage;
 
     public LoginPage() {
-
+        PageFactory.initElements(DriverUtil.get(),this);
     }
 
     public void setUsername(String inputUsername){
@@ -47,5 +46,16 @@ public class LoginPage {
 
      }
 
+     public String getErrorText(){
 
-}
+        String errorMessage= this.errorMessage.getText();
+
+       return errorMessage;
+
+    }
+
+
+    }
+
+
+
