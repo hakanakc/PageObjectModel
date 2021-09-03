@@ -20,6 +20,7 @@ public class LoginTest extends BaseTests {
 
     @Test
     public void positiveTestLogin() {
+        test= report.createTest("positive login");
         String url = ConfigurationReader.get("url");
         String password = ConfigurationReader.get("password");
 
@@ -36,13 +37,14 @@ public class LoginTest extends BaseTests {
 
     @Test(dataProvider = "negativeUsernameData")
     public void negativeLoginTestUserName(String username, String password) {
+        test= report.createTest("Negative username test");
         String url = ConfigurationReader.get("url");
         driver.get(url);
         HomePage homePage = new HomePage();
         LoginPage loginPage = homePage.getLoginPage();
         loginPage.login(username, password);
         String actualError = loginPage.getErrorText();
-        Assert.assertTrue(actualError.contains("Your username is invalid"));
+        Assert.assertTrue(actualError.contains("random"));
     }
     @DataProvider
     public Object[][] negativeUsernameData() {
